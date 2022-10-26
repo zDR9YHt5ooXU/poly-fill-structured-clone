@@ -13,5 +13,7 @@ class Person {
   }
 }
 
-const bar = structuredClone(new Person('foo'));
+const foo = new Person('foo');
+const bar = structuredClone(foo);
+foo.greet();
 bar.greet();
