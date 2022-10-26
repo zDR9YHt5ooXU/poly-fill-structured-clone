@@ -4,7 +4,7 @@ import './style.css';
 // Write TypeScript code!
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
-import 'core-js';
+import 'core-js/actual/structured-clone';
 
 class Person {
   constructor(public name: string) {}
